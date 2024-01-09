@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const adminMiddleware = require("../middleware/admin");
-const { Admin, User } = require("../../03-mongo/db");
+const { Admin, User, Course } = require("../../03-mongo/db");
 const router = Router();
 const { JWT_SECRET } = require("../config");
 const jwt = require("jsonwebtoken");
